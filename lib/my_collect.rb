@@ -1,5 +1,5 @@
 def my_collect(array)
-  length = 0 
+  new_array = [] 
   while length < array.length do
     
   end
