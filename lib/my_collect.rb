@@ -1,7 +1,7 @@
 def my_collect(array)
   length = 0 
   while length < array.length do
-    yield array[length].split(" ")
+    yield array[length].upcase.split(" ")
     length += 1
   end
   
