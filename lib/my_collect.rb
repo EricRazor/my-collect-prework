@@ -1,8 +1,7 @@
 def my_collect(array)
   length = 0 
   while length < array.length do
-    array[length].upcase
-    yield(array)
+    yield array[length].upcase
     length += 1
   end
   
