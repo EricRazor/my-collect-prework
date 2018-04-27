@@ -3,5 +3,4 @@ def my_collect(array)
   array.each do |length|
     new_array << yield array[length].upcase
     new_array.split("")
-  end
 end
